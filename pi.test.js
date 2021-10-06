@@ -1,6 +1,6 @@
 function approxPi(pts) {
 
-    const insidePts = pts.filter( ([x, y]) => Math.sqrt((Math.pow(x, 2) + Math.pow(y, 2))) <= 1);
+    const insidePts = pts.filter( ([x, y]) => (Math.pow(x, 2) + Math.pow(y, 2)) <= 1);
 
     return (insidePts.length/pts.length) * 4;
 }
