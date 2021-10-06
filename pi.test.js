@@ -6,7 +6,7 @@ function approxPi(pts) {
 }
 
 
-test('example', () => {
+test('Should approximate pi with 100 000 random pts with a precision of one digit', () => {
 
     const generatePoints = (n) => {
         const pts = [];
@@ -29,7 +29,7 @@ test('example', () => {
     expect(result).toBeCloseTo(3.14, 1);
 })
 
-test('example 2', () => {
+test('Should approximate pi with 1 000 000 random pts with a precision of two digit', () => {
 
     const generatePoints = (n) => {
         const pts = [];
