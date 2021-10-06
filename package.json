@@ -1,0 +1,13 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "pi",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alban Lorillard",
+  "license": "No license",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
